@@ -15,9 +15,9 @@ d.initialize(speex.SPEEX_MODEID_WB)
 
 # buffer
 q = Queue()
-a = Queue()
+
 # stream input/output
-FRAME_SIZE = 320        # FRAME大小 test1234
+FRAME_SIZE = 320        # FRAME大小
 SAMPLING_RATE = 8000    # 取樣頻率
 pa = PyAudio() 
 streamin = pa.open(format=paInt16,
